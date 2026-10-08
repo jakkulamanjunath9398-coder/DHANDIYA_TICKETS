@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0d0614;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-festive {
+    font-family: 'Rozha One', serif;
+  }
+}
+
+/* Festive rangoli and mandala decorative background patterns */
+.bg-mandala {
+  background-color: #0e0517;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(234, 88, 12, 0.22) 0%, transparent 60%),
+    radial-gradient(circle at 100% 50%, rgba(217, 70, 239, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 0% 80%, rgba(245, 158, 11, 0.15) 0%, transparent 50%);
+}
+
+.festive-pattern {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.12) 1.5px, transparent 1.5px), radial-gradient(rgba(236, 72, 153, 0.1) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Shimmer gold animation */
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.festive-gradient-text {
+  background: linear-gradient(135deg, #fcd34d 0%, #fb923c 40%, #ec4899 80%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Dandiya stick crossed rotation */
+.rotate-dandiya-left {
+  transform: rotate(-35deg);
+}
+.rotate-dandiya-right {
+  transform: rotate(35deg);
+}
+
+/* Ticket tear notch cutout effect */
+.ticket-notch-top {
+  position: absolute;
+  top: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #0d0614;
+}
+
+.ticket-notch-bottom {
+  position: absolute;
+  bottom: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #0d0614;
+}
+
+/* Dedicated Print Stylesheet */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* Hide entire page shell except the active print target */
+  body * {
+    visibility: hidden;
+  }
+
+  .print-ticket-root,
+  .print-ticket-root * {
+    visibility: visible !important;
+  }
+
+  .print-ticket-root {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+  }
+
+  /* Specific print adjustments for the ticket */
+  .ticket-card-print {
+    border: 2px solid #b45309 !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .ticket-card-print * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print,
+  button,
+  nav,
+  header,
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Dandiya Night 2026 - Event Ticket Booking",
+  "description": "Official ticket booking portal for Dandiya Night 2026. Book passes, choose categories, preview QR tickets, and print passes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
