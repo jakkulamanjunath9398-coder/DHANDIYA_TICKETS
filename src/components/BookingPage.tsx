@@ -37,7 +37,7 @@ export const BookingPage: React.FC<BookingPageProps> = ({
   const [customerName, setCustomerName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [phone, setPhone] = useState<string>('');
-  const [city, setCity] = useState<string>('Bengaluru');
+  const [city, setCity] = useState<string>('Hyderabad');
   const [addOns, setAddOns] = useState<BookingAddOns>({ dandiyaPairs: 0, foodCoupons: 0 });
   const [promoInput, setPromoInput] = useState<string>('');
   const [appliedPromo, setAppliedPromo] = useState<{ code: string; discount: number } | null>(null);
@@ -405,7 +405,7 @@ export const BookingPage: React.FC<BookingPageProps> = ({
                     type="text"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    placeholder="Bengaluru"
+                    placeholder="Hyderabad"
                     className="w-full px-4 py-3 rounded-xl bg-stone-950 border border-stone-800 text-stone-100 placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"
                   />
                 </div>

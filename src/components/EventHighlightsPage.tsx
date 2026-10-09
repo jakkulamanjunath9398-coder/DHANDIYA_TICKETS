@@ -27,7 +27,7 @@ export const EventHighlightsPage: React.FC<EventHighlightsPageProps> = ({ onBook
             Dandiya Night 2026 Highlights
           </h1>
           <p className="text-stone-300 text-sm sm:text-base mt-3 leading-relaxed">
-            Immerse yourself in the magic of Navratri. Discover everything waiting for you at the largest Dandiya and Garba extravaganza in Bengaluru.
+            Immerse yourself in the magic of Navratri. Discover everything waiting for you at the largest Dandiya and Garba extravaganza in Hyderabad.
           </p>
         </div>
 

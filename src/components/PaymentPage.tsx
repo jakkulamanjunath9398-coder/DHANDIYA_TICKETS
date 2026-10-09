@@ -318,10 +318,10 @@ export const PaymentPage: React.FC<PaymentPageProps> = ({
               <div className="p-4 rounded-2xl bg-amber-950/20 border border-amber-500/30 text-xs text-amber-200/90 space-y-2 animate-fadeIn">
                 <div className="font-bold text-amber-300 flex items-center gap-1.5">
                   <Banknote className="w-4 h-4 text-amber-400" />
-                  Pay at Palace Grounds Gate Cash Desk
+                  Pay at Malla Reddy Vishwavidyapeeth Campus Desk
                 </div>
                 <p>
-                  Your Booking ID will be generated right now. You can show the digital pass at the dedicated Spot Collection Counter at Gate 4 and pay cash/UPI before entering the dance arena.
+                  Your Booking ID will be generated right now. You can show the digital pass at the dedicated Spot Collection Counter at Malla Reddy Vishwavidyapeeth, Maisammaguda and pay cash/UPI before entering the dance arena.
                 </p>
               </div>
             )}

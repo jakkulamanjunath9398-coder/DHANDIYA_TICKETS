@@ -82,7 +82,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
               <div>
                 <span className="text-xs sm:text-sm tracking-[0.3em] uppercase font-bold text-amber-400 block mb-2 font-mono">
-                  THE BIGGEST FESTIVE CARNIVAL OF BENGALURU
+                  THE BIGGEST FESTIVE CARNIVAL OF HYDERABAD
                 </span>
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black font-cinzel tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-amber-100 via-amber-300 to-amber-500 drop-shadow-md">
                   DANDIYA NIGHT 2026
@@ -494,7 +494,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="p-5 rounded-2xl bg-stone-900/60 border border-stone-800">
               <h4 className="text-sm font-bold text-amber-200 mb-2">Is parking available at the venue?</h4>
               <p className="text-xs text-stone-400 leading-relaxed">
-                Yes! Palace Grounds Gate 4 has dedicated parking space for over 1,500 four-wheelers and 3,000 two-wheelers. Valet parking is available for VIP pass holders.
+                Yes! Malla Reddy Vishwavidyapeeth Campus Gate has dedicated parking space for over 1,500 four-wheelers and 3,000 two-wheelers. Valet parking is available for VIP pass holders.
               </p>
             </div>
 

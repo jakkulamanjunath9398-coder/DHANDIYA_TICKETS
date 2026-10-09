@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
               </span>
             </div>
             <p className="text-stone-400 text-xs leading-relaxed">
-              Official ticketing portal for Bengaluru's largest Navratri Raas Garba Mahotsav. Certified entry passes with digital QR verification.
+              Official ticketing portal for Hyderabad's largest Navratri Raas Garba Mahotsav. Certified entry passes with digital QR verification.
             </p>
             <div className="flex items-center gap-2 text-[11px] text-amber-300">
               <FestiveDiya size={16} />

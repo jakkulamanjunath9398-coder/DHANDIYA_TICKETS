@@ -67,13 +67,13 @@ export const EVENT_DETAILS: EventDetails = {
   date: 'Saturday, October 18, 2026',
   time: '6:30 PM to 11:30 PM IST',
   gatesOpen: '5:30 PM IST',
-  venueName: 'The Royal Palace Lawns & Arena',
-  venueAddress: 'Gate 4, Jayamahal Road, Palace Grounds, Vasanth Nagar',
-  city: 'Bengaluru, Karnataka 560052',
+  venueName: 'MALLA REDDY VISHWAVIDHYAPEETH',
+  venueAddress: 'Maisammaguda, Dhulapally Post',
+  city: 'HYDERABAD 500100, Telangana',
   dressCode: 'Traditional Festive Chaniya Choli / Kurta Pajama / Kediya',
-  organizer: 'Royal Cultural Events & UTSAV Arts Guild',
-  contactEmail: 'support@dandiyanight2026.com',
-  contactPhone: '+91 98450 12026'
+  organizer: 'Malla Reddy Vishwavidyapeeth Cultural Committee',
+  contactEmail: 'jakkulamanjunath9398@gmail.com',
+  contactPhone: '+91 9515502932'
 };
 
 export const TICKET_CATEGORIES: TicketCategory[] = [
